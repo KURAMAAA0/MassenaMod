@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "centimod:block/centini_block"
+    }
+  }
+}

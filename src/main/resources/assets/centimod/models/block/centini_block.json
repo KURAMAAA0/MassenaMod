@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "centimod:blocks/centini",
+    "up": "centimod:blocks/centini",
+    "north": "centimod:blocks/centini",
+    "east": "centimod:blocks/centini",
+    "south": "centimod:blocks/centini",
+    "west": "centimod:blocks/centini",
+    "particle": "centimod:blocks/centini"
+  }
+}

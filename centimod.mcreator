@@ -1,9 +1,36 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CentiniBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centini_block"
+    },
+    {
+      "name": "CentiniBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centini_block_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.centimod.centini_block": "Bloc de Centini"
+    }
   },
   "foldersRoot": {
     "name": "~",
